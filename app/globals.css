@@ -22,6 +22,16 @@
   }
 }
 
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+.light {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
 body {
   background: var(--foreground);
   color: var(--background);
@@ -39,21 +49,7 @@ p {
 /* For shrinking all the pages inside */
 .maxContainer {
   padding-right: 10%;
-  /* initally was 7% */
   padding-left: 10%;
-  /* initally was 7% */
-}
-
-/* for the profile page only */
-.maxContainerProfile {
-  padding-right: 3%;
-  padding-left: 3%;
-}
-
-.title {
-  text-decoration: underline;
-  font-size: 40px;
-  line-height: 32px;
 }
 
 #JSCaptionTwo {
